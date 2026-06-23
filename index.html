@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./style.css">
+   <script src="./playerjs.js" type="text/javascript"></script>
+</head>
+<body>
+   <div class="valentine__block">
+      <div class="valentine__envelope">
+         <div class="shadow-wrapper"><div class="envelope__flap-left"></div></div>
+         <div class="shadow-wrapper top-wrapper"><div class="envelope__flap-top"></div></div>
+         <div class="shadow-wrapper"><div class="envelope__flap-right"></div></div>
+         <div class="shadow-wrapper"><div class="envelope__flap-bottom"></div></div>
+         <div class="envelope__letter" id="paper">
+            <div class="letter__wrapper">
+                  <!-- Нижняя половина листа (внутрянка) -->
+                  <div class="side bottom-part">
+                     <p>
+                        И не нужно мне целого мира,<br>
+                        Мне достаточно только тебя.<br>
+
+                        Ведь твоя милая улыбка,<br>
+                        Греет лучше любого костра.<br>
+                        Красивые глазки,<br>
+                        Мне заменят картину любую.<br>
+
+                        Тебе нужно понять, еще кое-что,<br>
+                        Что я всегда рядом, и завтра, и через год.<br>
+                        И через два, да хоть через двадцать,<br>
+                        И даже в следующей жизни, я буду с тобой.<br>
+                     </p>
+                  </div>
+                  
+                  <!-- Верхняя половина листа (подвижная) -->
+                  <div class="side top-part">
+                     <!-- Внешняя сторона (обложка) -->
+                     <div class="front">
+                        <span>Кому: Моему солнышку</span>
+                        <span>Нажми чтобы открыть</span>
+                     </div>
+                     <!-- Внутренняя сторона верхней половины -->
+                     <div class="back">
+                        <p>
+                           Радость моя, я люблю тебя, очень,<br>
+                           И знаю, что ты меня тоже.<br>
+                           Пусть мы часто ссоримся и обижаемся,<br>
+                           Но всегда миримся и обнимаемся.<br>
+
+                           Ты ведь не даром солнышко...<br>
+                           Ты греешь меня и освещаешь мне путь.<br>
+                           А то солнце, что в небе ты видишь,<br>
+                           Это не то, это подделка, это фуфло.<br>
+
+                           Мне не нужны все богатства этого мира.<br>
+                           Не нужен ни хлеб, ни вода<br>
+                        </p>
+                     </div>
+                  </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <span id="button-span">Ты будешь моей валентинкой?</span>
+   <div class="valentine__buttons">
+      <button class="button button__open" id="button__open">Да</button>
+      <button class="button button__close" id="button__close">Нет</button>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
